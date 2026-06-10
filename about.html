@@ -1,131 +1,326 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>오시는 길 & 가격 정보 | 방화 노래방 상세 매뉴얼</title>
-  <meta name="description" content="노래방 매니아로서 삑사리 나고 냄새나는 노래방은 절대 용납할 수 없음. 나도 왕년에 동아리 뒤풀이로 방화 근처 노래방 갔다가 음향 구려서 목 다 쉬고 돈만 날렸던 빡치는 추억이 있다. 그때 다짐했지. 내 마포 강서 바닥에 최고의 하이파이 오디오 음향과 깨끗한 위생을 자...">
-  <link rel="canonical" href="https://t3b05-bh-kb-real.pages.dev/about.html">
-  <meta name="bpaas-design-system" content="editorial-luxury">
-  <meta name="bpaas-design-theme" content="kr-editorial-luxury">
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    
-      :root {
-        --bg: #faf9f6;
-        --fg: #1c1c1e;
-        --accent: #8a7355;
-        --muted: #6e6e73;
-        --border: #e5e5e0;
-      }
-      body { background: var(--bg); color: var(--fg); font-family: 'Noto Serif KR', serif; line-height: 1.8; }
-      header { border-bottom: 1px solid var(--border); padding: 20px 0; }
-      .container { max-width: 900px; margin: 0 auto; padding: 0 24px; }
-      .hero { padding: 80px 0; text-align: left; border-bottom: 1px solid var(--border); }
-      .hero h1 { font-size: 3rem; font-weight: 400; color: var(--fg); margin-bottom: 24px; letter-spacing: -0.03em; }
-      .btn { display: inline-block; padding: 12px 36px; border: 1px solid var(--accent); color: var(--accent); text-decoration: none; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; transition: all 0.3s; }
-      .btn:hover { background: var(--accent); color: #fff; }
-      .content-section { padding: 60px 0; }
-      .card { border-bottom: 1px solid var(--border); padding: 32px 0; }
-      .card h3 { font-size: 1.4rem; font-weight: 500; margin-bottom: 12px; }
-      .review-grid { display: grid; grid-template-columns: 1fr; gap: 24px; margin-top: 40px; }
-      .review-card { border: 1px solid var(--border); padding: 24px; background: #fff; }
-    
-    table { width: 100%; border-collapse: collapse; margin-top: 24px; border: 2px solid var(--border); }
-    th, td { padding: 12px; border: 1px solid var(--border); text-align: center; }
-    th { background: rgba(0,0,0,0.02); font-weight: bold; }
-    header .container { display: flex; justify-content: space-between; align-items: center; }
-    .logo { font-size: 1.5rem; font-weight: 900; text-decoration: none; color: var(--fg); letter-spacing: -0.05em; }
-    nav a { color: var(--fg); text-decoration: none; font-weight: 700; margin-left: 12px; font-size: 0.9rem; }
-    nav a:hover { color: var(--accent); }
-    footer { border-top: 1px solid var(--border); padding: 40px 0; background: rgba(0,0,0,0.01); color: var(--muted); font-size: 0.85rem; }
-    footer .container { display: flex; justify-content: space-between; align-items: center; }
-    footer a { color: var(--muted); text-decoration: none; font-weight: bold; }
-    footer a:hover { color: var(--accent); }
-    .p-bar { background: var(--accent); color: #fff; padding: 10px 0; text-align: center; font-weight: 700; font-size: 0.95rem; }
-    .p-bar a { color: #fff; text-decoration: underline; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>방화 노래방 정보 | 내돈내산 찐 후기 & 예약</title>
+    <meta name="description" content="방화 노래방 내돈내산 정보 총정리. 가격, 시설, 위치, 예약 팁까지 싹 다 알려준다. 다른 데서는 절대 못 듣는 리얼 후기. 예약 문의 010-6279-0862. 방화역 1번 출구 3분 거리.">
+    <meta name="keywords" content="방화 노래방, 방화 노래방 내돈내산, 방화 노래방 정보, 방화역 노래방 가격, 방화 노래방 시설, 방화 노래방 예약">
+    <link rel="canonical" href="https://t3b05-bh-kb-real.vercel.app/info">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-raw-concrete">
+    <meta property="og:title" content="방화 노래방 정보 | 찐 후기 & 예약 꿀팁">
+    <meta property="og:description" content="방화 노래방 내돈내산 정보 총정리. 가격, 시설, 위치, 예약 팁까지 싹 다 알려준다. 방화역 1번 출구 3분 거리.">
+    <meta property="og:url" content="https://t3b05-bh-kb-real.vercel.app/info">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="방화 노래방 정보 | 찐 후기 & 예약 꿀팁">
+    <meta name="twitter:description" content="방화 노래방 내돈내산 정보 총정리. 가격, 시설, 위치, 예약 팁까지 싹 다 알려준다.">
+    <style>
+        /* Brutalist Avant-Garde + kr-raw-concrete 테마 */
+        :root {
+            --bg: #1a1a1a;
+            --text: #e0e0e0;
+            --accent: #ff4d4d;
+            --accent2: #00ff88;
+            --border: 3px solid #fff;
+            --font-mono: 'Courier New', monospace;
+            --font-sans: 'Helvetica Neue', Arial, sans-serif;
+            --spacing-unit: 1.2rem;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: var(--bg);
+            color: var(--text);
+            font-family: var(--font-mono);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+        header {
+            border-bottom: var(--border);
+            padding: 1.5rem 0;
+            background: #111;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .header-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: -1px;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent2); }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+        }
+        nav a {
+            color: var(--text);
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: color 0.2s;
+        }
+        nav a:hover { color: var(--accent); }
+        .hamburger-menu {
+            display: none;
+            cursor: pointer;
+            width: 30px;
+            height: 24px;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .hamburger-menu span {
+            display: block;
+            height: 3px;
+            background: #fff;
+            border-radius: 2px;
+        }
+        @media (max-width: 768px) {
+            nav ul {
+                display: none;
+                flex-direction: column;
+                background: #111;
+                position: absolute;
+                top: 100%;
+                right: 1rem;
+                padding: 1rem;
+                border: var(--border);
+            }
+            nav ul.active { display: flex; }
+            .hamburger-menu { display: flex; }
+        }
+        .hero {
+            padding: 4rem 0;
+            border-bottom: var(--border);
+            background: linear-gradient(135deg, #222, #1a1a1a);
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: -2px;
+            margin-bottom: 1.5rem;
+            background: linear-gradient(90deg, var(--accent), var(--accent2));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .hero p {
+            font-size: 1.3rem;
+            max-width: 700px;
+            margin: 0 auto 2rem;
+            color: #ccc;
+        }
+        .cta-button {
+            display: inline-block;
+            background: var(--accent);
+            color: #000;
+            padding: 1rem 2.5rem;
+            font-weight: bold;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            text-decoration: none;
+            border: none;
+            transition: transform 0.2s;
+            font-family: var(--font-mono);
+        }
+        .cta-button:hover { transform: scale(1.05); background: #ff6666; }
+        section {
+            padding: 3rem 0;
+            border-bottom: 1px solid #333;
+        }
+        section:last-of-type { border-bottom: none; }
+        h2 {
+            font-size: 2.2rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            margin-bottom: 2rem;
+            letter-spacing: -1px;
+            color: var(--accent2);
+        }
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+        .card {
+            background: #222;
+            padding: 1.8rem;
+            border: 2px solid #444;
+            transition: border-color 0.2s, transform 0.2s;
+        }
+        .card:hover { border-color: var(--accent); transform: translateY(-4px); }
+        .card h3 {
+            font-size: 1.4rem;
+            margin-bottom: 1rem;
+            color: #fff;
+            text-transform: uppercase;
+        }
+        .card p { color: #bbb; margin-bottom: 0.8rem; }
+        .card .highlight {
+            color: var(--accent);
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+        .faq-item {
+            border-bottom: 1px solid #333;
+            padding: 1.5rem 0;
+        }
+        .faq-item:last-child { border-bottom: none; }
+        .faq-q {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #fff;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .faq-q::after {
+            content: '+';
+            font-size: 1.5rem;
+            color: var(--accent);
+        }
+        .faq-a {
+            margin-top: 1rem;
+            color: #bbb;
+            display: none;
+        }
+        .faq-item.active .faq-a { display: block; }
+        .faq-item.active .faq-q::after { content: '-'; }
+        footer {
+            padding: 2rem 0;
+            border-top: var(--border);
+            background: #111;
+            text-align: center;
+            color: #888;
+            font-size: 0.9rem;
+        }
+        footer a { color: var(--accent2); text-decoration: none; }
+        .concrete-texture {
+            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" opacity="0.05"><rect fill="%23ffffff" width="100" height="100"/><path d="M10 10 L20 20 M30 40 L50 60 M70 80 L90 100" stroke="%23cccccc" stroke-width="0.5"/></svg>');
+            background-repeat: repeat;
+        }
+    </style>
 </head>
 <body>
-  <div class="p-bar">🚨 형님들 눈탱이 없는 리얼 정찰제 문의: <a href="tel:010-6279-0862">📞 010-6279-0862</a> (24시간 실시간 대기)</div>
-  <header>
-    <div class="container">
-      <a href="index.html" class="logo">방화.노래방</a>
-      <nav><a href="index.html">홈</a> | <a href="about.html">정보</a> | <a href="blog.html">블로그</a></nav>
-    </div>
-  </header>
-  <main>
-    <section class="hero">
-      <div class="container">
-        <h1>오시는 길 &amp; 투명한 가격 안내</h1>
-        <p style="font-size:1.25rem; opacity:0.9;">형이 직접 엄선한 최강의 코스 라인업과 100% 실명 정찰제 가격 테이블</p>
-      </div>
-    </section>
-    
-    <section class="content-section">
-      <div class="container">
-        <div class="card">
-          <h2 style="font-size:2rem; margin-bottom:24px; color:var(--accent);">형이 샵을 직접 엄선하고 관리하게 된 리얼 스토리</h2>
-          <p style="font-size:1.1rem; line-height:1.9; margin-bottom:20px;">노래방 매니아로서 삑사리 나고 냄새나는 노래방은 절대 용납할 수 없음. 나도 왕년에 동아리 뒤풀이로 방화 근처 노래방 갔다가 음향 구려서 목 다 쉬고 돈만 날렸던 빡치는 추억이 있다. 그때 다짐했지. 내 마포 강서 바닥에 최고의 하이파이 오디오 음향과 깨끗한 위생을 자랑하는 명품 노래방 연합을 만들겠다고. 그렇게 다듬어진 1등 예약 채널이 바로 010-6279-0862다.</p>
+    <header>
+        <div class="container header-inner">
+            <a href="/" class="logo">방화<span>노래방</span></a>
+            <nav>
+                <div class="hamburger-menu" onclick="toggleMenu()">
+                    <span></span><span></span><span></span>
+                </div>
+                <ul id="nav-menu">
+                    <li><a href="/">홈</a></li>
+                    <li><a href="/info">정보</a></li>
+                    <li><a href="/review">리뷰</a></li>
+                    <li><a href="/price">가격</a></li>
+                    <li><a href="/contact">문의</a></li>
+                </ul>
+            </nav>
         </div>
+    </header>
 
-        <div class="card" style="margin-top:40px;">
-          <h2 style="font-size:2rem; margin-bottom:24px; color:var(--accent);">100% 투명 정찰제 요금표</h2>
-          <p style="font-size:1.05rem; color:var(--muted); margin-bottom:15px;">※ 카드로 결제하시든 현금으로 결제하시든 예약 특가 그대로 완벽 적용됩니다. 추가요금 요구 시 형이 전액 환불해 줌.</p>
-          
-        <table>
-          <thead>
-            <tr><th>노래방 룸 세트</th><th>시간</th><th>정상가</th><th>예약 특가 (010-6279-0862)</th></tr>
-          </thead>
-          <tbody>
-            <tr><td>패밀리 스탠다드 룸 A</td><td>60분</td><td>30,000원</td><td><strong>25,000원</strong></td></tr>
-            <tr><td>대형 VIP 럭셔리 룸 B</td><td>60분</td><td>50,000원</td><td><strong>40,000원</strong></td></tr>
-            <tr><td>VVIP 올인원 파티 룸 C</td><td>120분</td><td>90,000원</td><td><strong>75,000원</strong></td></tr>
-          </tbody>
-        </table>
-      
-          <div style="margin-top:30px; text-align:center;">
-            <a href="tel:010-6279-0862" class="btn">실시간 견적 및 즉시 예약: 📞 010-6279-0862</a>
-          </div>
-        </div>
+    <main>
+        <section class="hero concrete-texture">
+            <div class="container">
+                <h1>방화 노래방<br>완벽 정보 가이드</h1>
+                <p>내돈내산으로 직접 발품 팔아서 정리했다. 방화에서 제일 핫한 노래방,<br>가격부터 시설, 꿀팁까지 싹 다 공개한다.</p>
+                <a href="tel:01062790862" class="cta-button">지금 예약 (010-6279-0862)</a>
+            </div>
+        </section>
 
-        <div class="card" style="margin-top:40px;">
-          <h2 style="font-size:2rem; margin-bottom:24px; color:var(--accent);">상세 위치 시그널 및 시설 안내</h2>
-          <p style="font-size:1.1rem; line-height:1.9;">위치 및 편의 사양: 방화 메인 역세권 시네마 타워 바로 옆 빌딩에 위치해 있어 영화 보고 밥 먹고 바로 들어오기 동선 개사기임. 대형 무료 주차장 제공에 전 객실 고성능 공기청정기 풀가동 중이라 상쾌함 끝판왕이다.</p>
-        </div>
+        <section>
+            <div class="container">
+                <h2>📍 위치 & 접근성</h2>
+                <div class="card-grid">
+                    <div class="card">
+                        <h3>주소</h3>
+                        <p>서울 강서구 방화동 592-10<br>(방화역 1번 출구 도보 3분)</p>
+                        <p class="highlight">역에서 진짜 3분 컷</p>
+                    </div>
+                    <div class="card">
+                        <h3>주차</h3>
+                        <p>건물 전용주차장 3대 가능<br>인근 공영주차장 5분 거리</p>
+                        <p class="highlight">차 가져와도 OK</p>
+                    </div>
+                    <div class="card">
+                        <h3>영업시간</h3>
+                        <p>월~일 12:00 ~ 익일 06:00<br>24시 풀코스 가능 (주말엔 늦어도 전화해)</p>
+                        <p class="highlight">밤샘 노래방 가능</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        <div style="margin-top:60px;">
-          <h2 style="font-size:2rem; margin-bottom:24px; color:var(--accent);">단골 고객 추천 실시간 찐소감</h2>
-          <div class="review-grid">
-    <div class="review-card">
-      <div style="display:flex; justify-content:space-between; margin-bottom:10px;">
-        <strong>조현석</strong>
-        <span style="color:#e0a82e;">⭐⭐⭐⭐⭐</span>
-      </div>
-      <p style="font-size:0.9rem; color:var(--muted);">음향 시설이 미쳤습니다. 코인노래방 갈 바엔 여기 대형 룸에서 노는 게 훨씬 만족도 높네요.</p>
-      <small style="display:block; margin-top:10px; color:#bbb;">작성일: 2026-05-20</small>
-    </div>
-  
-    <div class="review-card">
-      <div style="display:flex; justify-content:space-between; margin-bottom:10px;">
-        <strong>황보건</strong>
-        <span style="color:#e0a82e;">⭐⭐⭐⭐⭐</span>
-      </div>
-      <p style="font-size:0.9rem; color:var(--muted);">마포 노래방 정보 형님 믿고 바로 방문해서 단체 뒤풀이 성공적으로 마쳤습니다. 감사함돠!</p>
-      <small style="display:block; margin-top:10px; color:#bbb;">작성일: 2026-05-24</small>
-    </div>
-  </div>
-        </div>
-      </div>
-    </section>
-  </main>
-  <footer>
-    <div class="container">
-      <div>&copy; 2026 방화 노래방 스페셜 가이드. All Rights Reserved.</div>
-      <div>
-        <a href="index.html">홈</a> | <a href="about.html">정보</a> | <a href="blog.html">블로그</a>
-      </div>
-    </div>
-  </footer>
+        <section>
+            <div class="container">
+                <h2>💸 가격 정보 (내돈내산 기준)</h2>
+                <div class="card-grid">
+                    <div class="card">
+                        <h3>평일 2시간</h3>
+                        <p>1~2인: 25,000원<br>3~4인: 35,000원</p>
+                        <p class="highlight">가성비 개꿀</p>
+                    </div>
+                    <div class="card">
+                        <h3>주말 2시간</h3>
+                        <p>1~2인: 30,000원<br>3~4인: 40,000원</p>
+                        <p class="highlight">주말도 합리적</p>
+                    </div>
+                    <div class="card">
+                        <h3>심야 (22시~)</h3>
+                        <p>2시간: 35,000원<br>종일권: 60,000원 (24시까지)</p>
+                        <p class="highlight">밤샘은 종일권 추천</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <h2>🎤 시설 & 음향</h2>
+                <div class="card-grid">
+                    <div class="card">
+                        <h3>룸 크기</h3>
+                        <p>소(2~3인) / 중(4~6인) / 대(8~12인)<br>대형룸은 단체 모임 최적</p>
+                        <p class="highlight">룸마다 방음 완벽</p>
+                    </div>
+                    <div class="card">
+                        <h3>음향 장비</h3>
+                        <p>JBL 스피커 + Sennheiser 마이크<br>노래 반주는 TJ미디어 최신곡</p>
+                        <p class="highlight">음질 끝판왕</p>
+                    </div>
+                    <div class="card">
+                        <h3>부가 서비스</h3>
+                        <p>무료 음료(콜라/사이다) 1잔<br>안주 주문 가능 (떡볶이, 치킨)</p>
+                        <p class="highlight">안주 맛은 진짜</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <h2>❓ 찐
 </body>
 </html>
