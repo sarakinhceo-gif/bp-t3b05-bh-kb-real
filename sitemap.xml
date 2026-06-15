@@ -2,21 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://sarakinhceo-gif.github.io/bp-t3b05-bh-kb-real/</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://sarakinhceo-gif.github.io/bp-t3b05-bh-kb-real/about.html</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://sarakinhceo-gif.github.io/bp-t3b05-bh-kb-real/blog.html</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sarakinhceo-gif.github.io/bp-t3b05-bh-kb-real/posts/compare-002-1k291qo.html</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://sarakinhceo-gif.github.io/bp-t3b05-bh-kb-real/posts/juice-1.html</loc>
@@ -49,6 +55,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sarakinhceo-gif.github.io/bp-t3b05-bh-kb-real/posts/qa-001-1k291qo.html</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sarakinhceo-gif.github.io/bp-t3b05-bh-kb-real/posts/review-001-5kwvt6.html</loc>
     <lastmod>2026-06-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -62,7 +74,7 @@
   </url>
   <url>
     <loc>https://sarakinhceo-gif.github.io/bp-t3b05-bh-kb-real/feed.xml</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
